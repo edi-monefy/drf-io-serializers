@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Tests for the `drf-rw-serializers` models module.
+Tests for the `drf-io-serializers` models module.
 """
 
 from __future__ import absolute_import, unicode_literals

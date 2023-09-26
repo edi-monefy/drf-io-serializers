@@ -32,7 +32,7 @@ INSTALLED_APPS = (
 )
 
 LOCALE_PATHS = [
-    root('drf_rw_serializers', 'conf', 'locale'),
+    root('drf_io_serializers', 'conf', 'locale'),
 ]
 
 ROOT_URLCONF = 'example_app.urls'

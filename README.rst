@@ -1,4 +1,4 @@
-Django REST Framework Read & Write Serializers
+Django REST Framework Read, Write & List Serializers
 ==============================================
 
 |pypi-badge| |travis-badge| |codecov-badge| |doc-badge| |pyversions-badge|
@@ -12,7 +12,7 @@ adding separated serializers for read and write operations.
 Documentation
 -------------
 
-The full documentation is at https://drf-rw-serializers.readthedocs.org.
+The full documentation is at https://drf-io-serializers.readthedocs.org.
 
 License
 -------
@@ -27,14 +27,14 @@ How To Contribute
 
 Contributions are very welcome.
 
-Please read `How To Contribute <https://github.com/vintasoftware/drf-rw-serializers/blob/master/CONTRIBUTING.rst>`_ for details.
+Please read `How To Contribute <https://github.com/vintasoftware/drf-io-serializers/blob/master/CONTRIBUTING.rst>`_ for details.
 
 PR description template should be automatically applied if you are sending PR
 from github interface; otherwise you can find it it at
-`PULL_REQUEST_TEMPLATE.md <https://github.com/vintasoftware/drf-rw-serializers/blob/master/.github/PULL_REQUEST_TEMPLATE.md>`_
+`PULL_REQUEST_TEMPLATE.md <https://github.com/vintasoftware/drf-io-serializers/blob/master/.github/PULL_REQUEST_TEMPLATE.md>`_
 
 Issue report template should be automatically applied if you are sending it
-from github UI as well; otherwise you can find it at `ISSUE_TEMPLATE.md <https://github.com/vintasoftware/drf-rw-serializers/blob/master/.github/ISSUE_TEMPLATE.md>`_
+from github UI as well; otherwise you can find it at `ISSUE_TEMPLATE.md <https://github.com/vintasoftware/drf-io-serializers/blob/master/.github/ISSUE_TEMPLATE.md>`_
 
 Reporting Security Issues
 -------------------------
@@ -59,26 +59,26 @@ Copyright (c) 2020 Vinta Serviços e Soluções Tecnológicas Ltda
 
 
 
-.. |pypi-badge| image:: https://img.shields.io/pypi/v/drf-rw-serializers.svg
-    :target: https://pypi.python.org/pypi/drf-rw-serializers/
+.. |pypi-badge| image:: https://img.shields.io/pypi/v/drf-io-serializers.svg
+    :target: https://pypi.python.org/pypi/drf-io-serializers/
     :alt: PyPI
 
-.. |travis-badge| image:: https://travis-ci.org/vintasoftware/drf-rw-serializers.svg?branch=master
-    :target: https://travis-ci.org/vintasoftware/drf-rw-serializers
+.. |travis-badge| image:: https://travis-ci.org/vintasoftware/drf-io-serializers.svg?branch=master
+    :target: https://travis-ci.org/vintasoftware/drf-io-serializers
     :alt: Travis
 
-.. |codecov-badge| image:: http://codecov.io/github/vintasoftware/drf-rw-serializers/coverage.svg?branch=master
-    :target: http://codecov.io/github/vintasoftware/drf-rw-serializers?branch=master
+.. |codecov-badge| image:: http://codecov.io/github/vintasoftware/drf-io-serializers/coverage.svg?branch=master
+    :target: http://codecov.io/github/vintasoftware/drf-io-serializers?branch=master
     :alt: Codecov
 
-.. |doc-badge| image:: https://readthedocs.org/projects/drf-rw-serializers/badge/?version=latest
-    :target: http://drf-rw-serializers.readthedocs.io/en/latest/
+.. |doc-badge| image:: https://readthedocs.org/projects/drf-io-serializers/badge/?version=latest
+    :target: http://drf-io-serializers.readthedocs.io/en/latest/
     :alt: Documentation
 
-.. |pyversions-badge| image:: https://img.shields.io/pypi/pyversions/drf-rw-serializers.svg
-    :target: https://pypi.python.org/pypi/drf-rw-serializers/
+.. |pyversions-badge| image:: https://img.shields.io/pypi/pyversions/drf-io-serializers.svg
+    :target: https://pypi.python.org/pypi/drf-io-serializers/
     :alt: Supported Python versions
 
-.. |license-badge| image:: https://img.shields.io/github/license/vintasoftware/drf-rw-serializers.svg
-    :target: https://github.com/vintasoftware/drf-rw-serializers/blob/master/LICENSE.txt
+.. |license-badge| image:: https://img.shields.io/github/license/vintasoftware/drf-io-serializers.svg
+    :target: https://github.com/vintasoftware/drf-io-serializers/blob/master/LICENSE.txt
     :alt: License

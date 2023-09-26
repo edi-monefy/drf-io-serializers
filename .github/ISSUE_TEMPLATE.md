@@ -1,4 +1,4 @@
-* drf-rw-serializers version:
+* drf-io-serializers version:
 * Django version:
 * Python version:
 * Operating System:

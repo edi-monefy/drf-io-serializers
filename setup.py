@@ -23,7 +23,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-VERSION = get_version('drf_rw_serializers', '__init__.py')
+VERSION = get_version('drf_io_serializers', '__init__.py')
 
 if sys.argv[-1] == 'tag':
     print("Tagging the version on github:")
@@ -35,15 +35,15 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 CHANGELOG = open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst')).read()
 
 setup(
-    name='drf-rw-serializers',
+    name='drf-io-serializers',
     version=VERSION,
     description="""Generic views, viewsets and mixins that extend the Django REST Framework ones adding separated serializers for read and write operations""",
     long_description=README + '\n\n' + CHANGELOG,
     author='vintasoftware',
     author_email='contact@vinta.com.br',
-    url='https://github.com/vintasoftware/drf-rw-serializers',
+    url='https://github.com/vintasoftware/drf-io-serializers',
     packages=[
-        'drf_rw_serializers',
+        'drf_io_serializers',
     ],
     include_package_data=True,
     install_requires=[
@@ -68,5 +68,6 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],
 )

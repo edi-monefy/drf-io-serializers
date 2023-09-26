@@ -2,7 +2,7 @@ Change Log
 ----------
 
 ..
-   All enhancements and patches to drf_rw_serializers will be documented
+   All enhancements and patches to drf_io_serializers will be documented
    in this file.  It adheres to the structure of http://keepachangelog.com/ ,
    but in reStructuredText instead of Markdown (for ease of incorporation into
    Sphinx documentation and the PyPI description).

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from drf_rw_serializers import generics, viewsets, mixins
+from drf_io_serializers import generics, viewsets, mixins
 from .models import Order
 from .serializers import OrderCreateSerializer, OrderListSerializer
 

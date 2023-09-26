@@ -8,9 +8,9 @@ After installing Django REST Framework you can now follow these steps:
 
 At the command line::
 
-    $ easy_install drf-rw-serializers
+    $ easy_install drf-io-serializers
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv drf-rw-serializers
-    $ pip install drf-rw-serializers
+    $ mkvirtualenv drf-io-serializers
+    $ pip install drf-io-serializers

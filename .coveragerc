@@ -1,7 +1,7 @@
 [run]
 branch = True
 data_file = .coverage
-source=drf_rw_serializers
+source=drf_io_serializers
 omit =
     test_settings
     *migrations*
